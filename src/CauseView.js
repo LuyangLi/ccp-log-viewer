@@ -44,7 +44,7 @@ class CauseView extends React.PureComponent {
           <Dialog
             open={this.state.isOpen}
             onClose={() => this._handleClickClose()}
-            fullWidth="true"
+            fullWidth={true}
             maxWidth="lg"
           >
             <DialogTitle>{ message }</DialogTitle>
